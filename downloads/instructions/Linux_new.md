@@ -24,11 +24,17 @@ If you would like to be able to run OpenRocket as an ordinary command,
 make sure you have write access to <code>/usr/local/bin/</code>.
 
 Then, navigate to the directory in which you downloaded the installer,
-make it executable, and run it as follows:
-
+make it executable, and run it.
+ 
  ```% cd Downloads``` <em>(or wherever you downloaded it to)</em> \
- ```% chmod +x OpenRocket-${VERSION}$-Linux.sh``` \
- ```% ./OpenRocket-${VERSION}$-Linux.sh```
+ 
+- if you downloaded the version for x86 computers: 
+ ```% chmod +x OpenRocket-${VERSION}$-installer-Linux-x86_64.sh``` \
+ ```% ./OpenRocket-${VERSION}$-installer-Linux-x86_64.sh```
+
+- if you downloaded the version for Arm64 computers:
+ ```% chmod +x OpenRocket-${VERSION}$-installer-Linux-Arm64.sh``` \
+ ```% ./OpenRocket-${VERSION}$-installer-Linux-Arm64.sh```
 
 The installer will now guide you through the process of installing
 OpenRocket on your system. At any step you can click '''Cancel''' to
